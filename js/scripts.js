@@ -5,7 +5,7 @@ $(document).ready(function() {
     $('#vote').show();
   } else if (age === 18) {
     $('#vote').show();
-  } else (age =< 18) {
+  } else {
     $('#novote').show();
   }
 });
